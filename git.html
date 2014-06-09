@@ -45,11 +45,11 @@
             <p>Crie uma nova pasta, abra o terminal e digite <a>git init</a> para criar um novo repositório.</p>
         </div>
 
-        <div class="step" data-x="4500" data-y="2100" data-rotate="180" data-scale="7">
+        <!-- <div class="step" data-x="4500" data-y="2100" data-rotate="180" data-scale="7">
             <p style="font-size:50px;"><strong>Clonando um repositório</strong></p><br>
             <p>Para clonar (copiar) um repositório LOCAL execute o comando no terminal</p>
             <a>git clone /way/to/repo</a>
-        </div>
+        </div> -->
 
         <div class="step" data-x="-3500" data-y="2100" data-rotate="180" data-scale="7">
             <p style="font-size:50px;"><strong>Clonando um repositório</strong></p><br>
@@ -71,23 +71,43 @@
             <img src="http://rogerdudler.github.io/git-guide/img/trees.png">
         </div>
 
-         <div class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+         <div class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="4">
             <p style="font-size:50px;"><strong>Adicionando e Commitando</strong></p>
             <p>Após as alterações no arquivo, digite <a>git add *arquivo*</a> ou <a>git add .</a> para adicionar todos os arquvos modificados para a INDEX, onde é o primeiro passo no fluxo.</p>
         </div>
 
-        <div class="step" data-x="6700" data-y="-300" data-scale="6">
+        <div class="step" data-x="8700" data-y="3000" data-scale="2">
             <p style="font-size:50px;"><strong>Adicionando e Commitando</strong></p>
             <p>Para confirmar as mudanças (fazer um commit), use <a>git commit -m "mensagem"</a></p>
             <p>Agora o arquivo foi enviado para a HEAD, mas não foi ao repositório remoto.</p>
         </div>
 
-        <!--<div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-            <p>want to know more?</p>
-            <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
+        <div class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+            <p style="font-size:50px;"><strong>Enviando ao servidor</strong></p>
+            <p>Utilize o comando <a> git push origin master</a> para enviar as alterações feitas no branch master</p>
         </div>
 
-        <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <div class="step" data-x="4300" data-y="3200" data-rotate="-40" data-scale="6">
+            <p style="font-size:50px;"><strong>Ramificando</strong></p>
+            <p>Branchs são utilizados para desenvolver novas features isoladas. Ou seja, sem alterar no branch master (corrente).</p>
+        </div>
+
+        <div class="step" data-x="1600" data-y="-1000" data-scale="1">
+            <p style="font-size:50px;"><strong>Ramificando</strong></p>
+            <p>Branchs são utilizados para desenvolver novas features isoladas. Ou seja, sem alterar no branch master (corrente).</p>
+        </div>
+
+        <div class="step" data-x="5600" data-y="-1000" data-scale="1">
+            <p style="font-size:50px;"><strong>Ramificando</strong></p>
+            <p>Crie um novo branch usando:</p>
+            <a>git checkout -b *nome*</a>
+            <p>Retorne para o master usando:</p>
+            <a>git checkout master</a>
+            <p>Remova o branch da seguinte forma:</p>
+            <a>git branch -d *nome*</a>
+        </div>
+
+        <!--<div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
             <p>one more thing...</p>
         </div>
 
