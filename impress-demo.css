@@ -250,6 +250,7 @@ a:focus {
     3D positioning along Z axis.
 */
 
+
 #title {
     padding: 0;
 }
@@ -268,7 +269,7 @@ a:focus {
 }
 
 #title h1 {
-    font-size: 190px;
+    font-size: 90px;
 
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
