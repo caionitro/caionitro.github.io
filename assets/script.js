@@ -47,7 +47,7 @@ google.maps.event.addDomListener(window, 'load', init);
     var map;
     function init() {
         var mapOptions = {
-            center: new google.maps.LatLng(27.734607,85.664078),
+            center: new google.maps.LatLng(-23.343882, -52.095793),
             zoom: 12,
             zoomControl: true,
             zoomControlOptions: {
@@ -139,7 +139,7 @@ google.maps.event.addDomListener(window, 'load', init);
         var mapElement = document.getElementById('map');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-['Coffee Shop', 'London', '121 1212 2121', 'info@coffee.com', 'coffee.com', 27.7236, 85.5247, 'https://mapbuildr.com/assets/img/markers/solid-pin-blue.png']
+['Maria & Helena', 'Mandaguaçú', '121 1212 2121', 'mktmariaehelena@gmail.com', 'mariaehelena.com.br', -23.343882, -52.095793, 'https://mapbuildr.com/assets/img/markers/solid-pin-blue.png']
         ];
         for (i = 0; i < locations.length; i++) {
             if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
@@ -180,7 +180,7 @@ link = web;
                    iw.close();
                    infoWindowVisible(false);
                } else {
-                   var html= "<div style='color:#000;background-color:#fff;padding:5px;width:150px;'><h4>"+title+"</h4><p>"+desc+"<p><p>"+telephone+"<p><a href='mailto:"+email+"' >"+email+"<a><a href='"+link+"'' >"+web+"<a></div>";
+                   var html= "<div style='color:#000;background-color:#fff;padding:5px;width:150px;'><h4>"+title+"</h4><p>"+desc+"<p><p>"+telephone+"<p><a href='mailto:"+email+"' >"+email+"<a></p><p><a href='"+link+"'' >"+web+"</a></p></div>";
                    iw = new google.maps.InfoWindow({content:html});
                    iw.open(map,marker);
                    infoWindowVisible(true);
