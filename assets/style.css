@@ -1,4 +1,4 @@
-body {	color:#333;	font:300 15px/15px Roboto,Arial,Helvetica;background:url(../images/bg1_mh.jpg) right no-repeat fixed #fff; -webkit-font-smoothing:antialiased;}
+body {	color:white;	font:300 15px/15px Roboto,Arial,Helvetica;background:url(../images/bg1_mh.jpg) right no-repeat fixed #fff; -webkit-font-smoothing:antialiased;}
 
 a{color:#00a9c6; text-decoration:none;}
 a:hover{color:#666;}
@@ -9,6 +9,25 @@ a:hover{color:#666;}
 -o-transition: all 0.3s ease-in-out;
 transition: all 0.3s ease-in-out;
 outline: none !important;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    black;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    black;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    black;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    black;
+}
+
+input, select, textarea{
+    color: black;
 }
 
 h1,h2,h3,h4{margin: 0;line-height: 1em;}
@@ -35,7 +54,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 #head,.carousel{margin-top: 0;}
 
-#home{padding-top: 6em;}
+#home{padding-top: 1em;}
 
 /*banner*/
 .banner{position: relative;}
