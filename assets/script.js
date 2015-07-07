@@ -1,6 +1,6 @@
  jQuery(document).ready(function($) {
- 
-    $(".scroll a, .navbar-brand, .gototop,.explore").click(function(event){   
+
+    $(".scroll a, .navbar-brand, .gototop,.explore").click(function(event){
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600,'swing');
     $(".scroll li").removeClass('active');
@@ -48,7 +48,7 @@ google.maps.event.addDomListener(window, 'load', init);
     function init() {
         var mapOptions = {
             center: new google.maps.LatLng(-23.343882, -52.095793),
-            zoom: 12,
+            zoom: 15,
             zoomControl: true,
             zoomControlOptions: {
                 style: google.maps.ZoomControlStyle.DEFAULT,
@@ -70,14 +70,12 @@ google.maps.event.addDomListener(window, 'load', init);
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             styles: [{
         "stylers": [{
-            "visibility": "off"
+            "visibility": "on"
         }]
     }, {
         "featureType": "road",
             "stylers": [{
             "visibility": "on"
-        }, {
-            "color": "#ffffff"
         }]
     }, {
         "featureType": "road.arterial",
@@ -111,7 +109,7 @@ google.maps.event.addDomListener(window, 'load', init);
         "featureType": "road",
             "elementType": "labels",
             "stylers": [{
-            "visibility": "off"
+            "visibility": "on"
         }]
     }, {
         "featureType": "poi.park",
@@ -124,7 +122,7 @@ google.maps.event.addDomListener(window, 'load', init);
     }, {
         "elementType": "labels",
             "stylers": [{
-            "visibility": "off"
+            "visibility": "on"
         }]
     }, {
         "featureType": "landscape.man_made",
@@ -132,14 +130,14 @@ google.maps.event.addDomListener(window, 'load', init);
             "stylers": [{
             "weight": 0.9
         }, {
-            "visibility": "off"
+            "visibility": "on"
         }]
     }],
         }
         var mapElement = document.getElementById('map');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-['Maria & Helena', 'Mandaguaçú', '121 1212 2121', 'mktmariaehelena@gmail.com', 'mariaehelena.com.br', -23.343882, -52.095793, 'https://mapbuildr.com/assets/img/markers/solid-pin-blue.png']
+['Maria & Helena', 'Mandaguaçú', 'tel:121 1212 2121', '', 'mariaehelena.com.br', -23.343882, -52.095793, 'https://mapbuildr.com/assets/img/markers/solid-pin-blue.png']
         ];
         for (i = 0; i < locations.length; i++) {
             if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
