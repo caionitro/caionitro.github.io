@@ -52,10 +52,10 @@
           <div class="container">
             <div class="navbar-header">
               <!-- Logo Starts -->
-              <a class="navbar-brand" href="#home"><img src="images/logo_branco1.png" height="80px" width="70px" alt="logo" class="img-responsive hidden-xs"></a>
+              <a class="navbar-brand" href="#home1"><img src="images/logo_branco1.png" height="80px" width="70px" alt="logo" class="img-responsive hidden-xs"></a>
               <!-- #Logo Ends -->
               <div class="visible-xs-inline">
-                  <a class="navbar-brand" style="color:#FFF;padding-top:15px;" href="#home">Maria & Helena</a>
+                  <a class="navbar-brand" style="color:#FFF;padding-top:15px;font:normal 1.7em Lobster,Arial,Helvetica;text-transform:capitalize;" href="#home1"><strong>Maria & Helena</strong></a>
               </div>
 
 
@@ -72,7 +72,7 @@
             <!-- Nav Starts -->
             <div class="navbar-collapse  collapse">
               <ul class="nav navbar-nav navbar-right scroll">
-                 <li class="active"><a href="#home">Inicio</a></li>
+                 <li class="active"><a href="#home1">Inicio</a></li>
                  <li ><a href="#menu">Menu</a></li>
                  <li ><a href="#foods">Pratos</a></li>
                  <li ><a href="#partners">Parceiros</a></li>
@@ -91,27 +91,64 @@
 
 
 
-<div id="home">
-<div class="banner">
-          <img src="images/bg_mh.jpg" alt="banner" class="img-responsive">
-          <div class="caption">
-            <div class="caption-wrapper">
-              <div class="caption-info">
-              <i class="fa fa-cutlery fa-5x animated bounceInDown"></i>
-              <h1 class="animated bounceInUp">Maria & Helena</h1>
-              <p class="animated bounceInLeft">No Almoço ou no jantar, o M&H estará poronto para lhe atender bem!</p>
-             <a href="#menu" class="explore animated bounceInDown"><i class="fa fa-angle-down  fa-3x"></i></a>
-              </div>
+<div id="home1"></div>
+
+    <div id="mHelenaCarusel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#mHelenaCarusel" data-slide-to="0" class="active"></li>
+            <li data-target="#mHelenaCarusel" data-slide-to="1"></li>
+            <!-- <li data-target="#mHelenaCarusel" data-slide-to="2"></li> -->
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('./images/slider/bg_mh.jpg');"></div>
+                <!-- <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div> -->
+                <div class="carousel-caption mHelena-carrousel" style="margin-bottom:140px;">
+                  <h1>Maria & Helena Restaurante</h1>
+                  <h3>Sabores do mundo!</h3>
+                </div>
+                <div class="carousel-caption mHelena-carrousel visible-xs-block" style="margin-bottom:170px;">
+                  <h1>M&H Restaurante</h1>
+                </div>
             </div>
-          </div>
-</div>
-</div>
+            <div class="item">
+                <div class="fill" style="background-image:url('./images/slider/choop.jpg');"></div>
+                <!-- <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div> -->
+                <div class="carousel-caption">
+                    <!-- <h2>Caption 2</h2> -->
+                </div>
+            </div>
+            <!-- <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div> -->
+        </div>
 
+        <!-- Controls -->
+        <a class="left carousel-control" href="#mHelenaCarusel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#mHelenaCarusel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
 
-
-
-
-
+    </div>
+  <!-- <div class="banner">
+    <img src="images/bg_mh.jpg" alt="banner" class="img-responsive">
+    <div class="caption">
+      <div class="caption-wrapper">
+        <div class="caption-info">
+        <i class="fa fa-cutlery fa-5x animated bounceInDown"></i>
+        <h1 class="animated bounceInUp">Maria & Helena</h1>
+        <p class="animated bounceInLeft">No Almoço ou no jantar, o M&H estará poronto para lhe atender bem!</p>
+       <a href="#menu" class="explore animated bounceInDown"><i class="fa fa-angle-down  fa-3x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div> -->
 
 
 
@@ -127,10 +164,8 @@
     <p>Queremos que tenha experiência gastronômica inesquecível, além de saborear cervejas especiais, vinhos, cachaças, diversos coquitéis, desilados, caipirinhas e sucos.</p>
 
     <p>Venha conhecer o que há de melhor na gastronomia e experimentar diversos sabores do mundo!</p>
-
-
-
   </div>
+
   <div class="col-sm-6 wowload fadeInRight">
 
      <h4><i class="fa fa-bars"></i> Menu</h4>
@@ -261,7 +296,7 @@
         <figcaption>
             <h2>Pizzas</h2>
             <p>Lorem ipsum dolor sit amet<br>
-            <a href="images/portfolio/pizza.jpg" title="1" data-gallery>Veja mais</a></p>
+            <!--<a href="images/portfolio/pizza.jpg" title="1" data-gallery>Veja mais</a>--> </p>
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
@@ -269,7 +304,7 @@
         <figcaption>
             <h2>Carnes</h2>
             <p>Lorem ipsum dolor sit amet<br>
-            <a href="images/portfolio/picanha.jpg" title="1" data-gallery>Veja mais</a></p>
+            <!--<a href="images/portfolio/picanha.jpg" title="1" data-gallery>Veja mais</a>--></p>
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
@@ -285,7 +320,7 @@
         <figcaption>
             <h2>Peixes</h2>
             <p>Lorem ipsum dolor sit amet<br>
-            <a href="images/portfolio/salmao.jpg" title="1" data-gallery>Veja mais</a></p>
+            <!--<a href="images/portfolio/salmao.jpg" title="1" data-gallery>Veja mais</a>--></p>
         </figcaption>
     </figure>
 
@@ -294,7 +329,7 @@
         <figcaption>
             <h2>Petiscos</h2>
             <p>Lorem ipsum dolor sit amet<br>
-            <a href="images/portfolio/linguica_acebolada.jpg" title="1" data-gallery>Veja mais</a></p>
+            <!--<a href="images/portfolio/linguica_acebolada.jpg" title="1" data-gallery>Veja mais</a>--></p>
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
@@ -302,7 +337,7 @@
         <figcaption>
             <h2>Entradas</h2>
             <p>Lorem ipsum dolor sit amet<br>
-            <a href="images/portfolio/entrada.jpg" title="1" data-gallery>Veja mais</a></p>
+            <!--<a href="images/portfolio/entrada.jpg" title="1" data-gallery>Veja mais</a>--></p>
         </figcaption>
     </figure>
 
@@ -467,10 +502,10 @@
 <!-- Footer Starts -->
 <div class="footer text-center spacer">
 <p class="wowload flipInX"><a href="#"><i class="fa fa-facebook fa-2x"></i></a> <a href="#"><i class="fa fa-instagram fa-2x"></i></a> <a href="#"><i class="fa fa-twitter fa-2x"></i></a> <a href="#"><i class="fa fa-flickr fa-2x"></i></a> </p>
-Copyright <?=date('Y')?> Guilherme Yamamoto Marketing. All rights reserved.
+Copyright 2015 Guilherme Yamamoto Marketing. All rights reserved.
 </div>
 <!-- # Footer Ends -->
-<a href="#home" class="gototop "><i class="fa fa-angle-up  fa-3x"></i></a>
+<a href="#home1" class="gototop "><i class="fa fa-angle-up  fa-3x"></i></a>
 
 
 

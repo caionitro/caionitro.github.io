@@ -1,4 +1,7 @@
  jQuery(document).ready(function($) {
+   $('.carousel').carousel({
+        interval: 4000 //changes the speed
+    });
 
     $(".scroll a, .navbar-brand, .gototop,.explore").click(function(event){
     event.preventDefault();
