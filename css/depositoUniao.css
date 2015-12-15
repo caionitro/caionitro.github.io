@@ -35,14 +35,6 @@ footer {
     -o-background-size: cover;
 }
 
-/*#bs-example-navbar-collapse-1 > ul > li{
-  margin-top: 15px;
-}*/
-
-/*.navbar, .navbar-inverse{
-  height: 70px;
-}*/
-
 .logoNavbar {
   height: 30px;
   width: 180px;
@@ -50,4 +42,8 @@ footer {
 
 .navbar-brand{
   padding-top: 8px;
+}
+#gmap_canvas img{
+  max-width:none!important;
+  background:none!important
 }

@@ -1,0 +1,32 @@
+{
+  "name": "Deposito Uniao",
+  "homepage": "https://github.com/caionitro/caionitro.github.io",
+  "description": "Website Deposito Uniao",
+  "main": "index.php",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "site",
+    "deposito",
+    "uniao"
+  ],
+  "authors": [
+    "caio mariano",
+    "guilherme yamamoto"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0"
+  }
+}
