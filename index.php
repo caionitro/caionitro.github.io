@@ -17,6 +17,8 @@
     <!-- Custom CSS -->
     <!-- <link href="css/heroic-features.css" rel="stylesheet"> -->
     <link href="css/depositoUniao.css" rel="stylesheet">
+    <link rel="stylesheet" href="/bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
     <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -106,17 +108,76 @@
         <hr>
 
         <!-- Title -->
-        <div class="row" id="produto">
-            <div class="col-lg-12">
+        <div class="row text-center" id="produto">
                 <h3>Produtos</h3>
-            </div>
         </div>
         <!-- /.row -->
 
         <!-- Page Features -->
-        <div class="row text-center">
+          <div class="categories">
+            <ul class="cat">
+              <li>
+                <ol class="type">
+                  <li><a href="#" data-filter="*" class="active">Todos</a></li>
+                  <li><a href="#" data-filter=".loucas">Loucas</a></li>
+                  <li><a href="#" data-filter=".cubas">Cubas</a></li>
+                  <li><a href="#" data-filter=".metais">Metais</a></li>
+                  <li><a href="#" data-filter=".pisos">Pisos</a></li>
+                </ol>
+              </li>
+            </ul>
+          </div>
 
-            <div class="col-md-3 col-sm-6 hero-feature">
+          <div class="row">
+            <div class="portfolio-items">
+              <div class="col-sm-6 col-md-3 col-lg-3 cubas">
+                <div class="portfolio-item wow fadeInUp" data-wow-delay="200ms">
+                  <div class="hover-bg"> <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="hover-text">
+                      <h4>Cubas</h4>
+                      As melhores cubas, de embutir e sobrepor
+                      <div class="clearfix"></div>
+                    </div>
+                    <img src="images/Cubas.png" class="img-responsive" alt="Project Title"> </a> </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3 loucas">
+                <div class="portfolio-item wow fadeInUp" data-wow-delay="400ms">
+                  <div class="hover-bg"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="hover-text">
+                      <h4>Louças</h4>
+                      Louças para você usar a vida toda!
+                      <div class="clearfix"></div>
+                    </div>
+                    <img src="images/Loucas.png" class="img-responsive" alt="Project Title"> </a> </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3 metais">
+                <div class="portfolio-item wow fadeInUp" data-wow-delay="600ms">
+                  <div class="hover-bg"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="hover-text">
+                      <h4>Metais</h4>
+                      Os metais mais lindos para seu lar
+                      <div class="clearfix"></div>
+                    </div>
+                    <img src="images/Metais.png" class="img-responsive" alt="Project Title"> </a> </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3 pisos">
+                <div class="portfolio-item wow fadeInUp" data-wow-delay="800ms">
+                  <div class="hover-bg"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="hover-text">
+                      <h4>Pisos</h4>
+                      Pisos para revestir sua obra de muito glamour
+                      <div class="clearfix"></div>
+                    </div>
+                    <img src="images/Pisos.png" class="img-responsive" alt="Project Title"> </a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <!-- <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
                     <img src="./images/Cubas.png" alt="">
                     <div class="caption">
@@ -158,17 +219,13 @@
                         <p><a href="#" class="btn btn-primary">Mais sobre...</a></p>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-        </div>
-        <!-- /.row -->
 
         <hr>
 
-        <div class="row" id="sobre">
-            <div class="col-lg-12">
-                <h3>Sobre</h3>
-            </div>
+        <div class="row text-center" id="sobre">
+          <h3>Sobre</h3>
         </div>
 
         <div class="row">
@@ -182,10 +239,24 @@
 
         <hr>
 
-        <div class="row" id="contato">
-            <div class="col-lg-12">
-                <h3>Contato</h3>
-            </div>
+        <div class="row text-center" id="contato">
+          <h3>Contato</h3>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-4">
+            <i class="fa fa-map-marker fa-2x"></i>
+            <p>Av. Munhoz da Rocha, 240</p>
+            <p>Mandaguaçu</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-envelope-o fa-2x"></i>
+            <p>depuniao@depuniao.com.br</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-phone fa-2x"></i>
+            <p>(44) 3245 - .....</p>
+          </div>
         </div>
 
       	<div class="row">
@@ -194,28 +265,14 @@
               <div id="gmap_canvas" style="height:400px;width:100%;"></div>
             </div>
       	  </div>
-
-        	<!-- <div class="col-sm-4 col-md-4">
-        		<h2>Snail mail</h2>
-        		<address>
-        			<strong>Hythe Window Cleaning</strong><br>
-        			15 Springfield Way<br>
-        			Hythe<br>
-        			Kent<br>
-        			United Kingdon<br>
-        			CT21 5SH<br>
-        			<abbr title="Phone">P:</abbr> 01234 567 890
-        		</address>
-        	</div> -->
         </div>
 
       </hr>
-
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12 text-right">
-                    <p>Copyright &copy; União Acabamentos <?=date('Y')?></p>
+                    <p>Copyright &copy; União Acabamentos <?php echo date('Y');?></p>
                 </div>
             </div>
         </footer>
@@ -223,8 +280,47 @@
     </div>
     <!-- /.container -->
 
+    <!-- jQuery -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+    <script src="bower_components/isotope/dist/isotope.pkgd.min.js"></script>
+    <!-- WOW -->
+    <script src="bower_components/wow/dist/wow.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
+      $(window).load(function() {
+        var $container = $('.portfolio-items');
+        $container.isotope({
+            filter: '*',
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+        });
+        $('.cat a').click(function() {
+            $('.cat .active').removeClass('active');
+            $(this).addClass('active');
+            var selector = $(this).attr('data-filter');
+            $container.isotope({
+                filter: selector,
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+            return false;
+        });
+      });
+      $(document).ready(function() {
+        new WOW().init();
+      });
+
+
       function init_map(){
         var myOptions = {
           zoom:15,
@@ -242,11 +338,6 @@
     </script>
 
 
-    <!-- jQuery -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 

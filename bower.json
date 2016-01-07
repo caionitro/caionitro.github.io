@@ -27,6 +27,9 @@
   "dependencies": {
     "jquery": "~2.1.4",
     "bootstrap": "~3.3.6",
-    "font-awesome": "~4.5.0"
+    "font-awesome": "~4.5.0",
+    "wow": "wowjs#~1.1.2",
+    "animate.css": "~3.5.1",
+    "isotope": "~2.2.2"
   }
 }
