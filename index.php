@@ -51,13 +51,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#produto">Produtos</a>
+                        <a href="#produto" class="page-scroll">Produtos</a>
                     </li>
                     <li>
-                        <a href="#sobre">Sobre</a>
+                        <a href="#sobre" class="page-scroll">Sobre</a>
                     </li>
                     <li>
-                        <a href="#contato">Contato</a>
+                        <a href="#contato" class="page-scroll">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -113,24 +113,42 @@
         </div>
         <!-- /.row -->
 
+        <div class="row categoria cat">
+          <div class="col-lg-offset-2 col-lg-2 col-md-2 col-xs-12">
+            <a href="#" data-filter="*" class="active btn btn-default">Todos</a>
+          </div>
+          <div class="col-lg-2 col-md-2 col-xs-3">
+            <a href="#" data-filter=".loucas" class="btn btn-default">Vasos</a>
+          </div>
+          <div class="col-lg-2 col-md-2 col-xs-3">
+            <a href="#" data-filter=".cubas" class="btn btn-default">Cubas</a>
+          </div>
+          <div class="col-lg-2 col-md-2 col-xs-3">
+            <a href="#" data-filter=".metais" class="btn btn-default">Metais</a>
+          </div>
+          <div class="col-lg-2 col-md-2 col-xs-3">
+            <a href="#" data-filter=".pisos" class="btn btn-default">Pisos</a>
+          </div>
+        </div>
+
         <!-- Page Features -->
-          <div class="categories">
+          <!-- <div class="row categories">
             <ul class="cat">
               <li>
                 <ol class="type">
                   <li><a href="#" data-filter="*" class="active">Todos</a></li>
-                  <li><a href="#" data-filter=".loucas">Loucas</a></li>
+                  <li><a href="#" data-filter=".loucas">Vasos</a></li>
                   <li><a href="#" data-filter=".cubas">Cubas</a></li>
                   <li><a href="#" data-filter=".metais">Metais</a></li>
                   <li><a href="#" data-filter=".pisos">Pisos</a></li>
                 </ol>
               </li>
             </ul>
-          </div>
+          </div> -->
 
           <div class="row">
             <div class="portfolio-items">
-              <div class="col-sm-6 col-md-3 col-lg-3 cubas">
+              <div class="col-sm-6 col-md-3 col-lg-3 cubas isotope-item">
                 <div class="portfolio-item wow fadeInUp" data-wow-delay="200ms">
                   <div class="hover-bg"> <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                     <div class="hover-text">
@@ -138,21 +156,10 @@
                       As melhores cubas, de embutir e sobrepor
                       <div class="clearfix"></div>
                     </div>
-                    <img src="images/Cubas.png" class="img-responsive" alt="Project Title"> </a> </div>
+                    <img src="images/cubas.jpg" class="img-responsive" alt="Project Title"> </a> </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-3 col-lg-3 loucas">
-                <div class="portfolio-item wow fadeInUp" data-wow-delay="400ms">
-                  <div class="hover-bg"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                    <div class="hover-text">
-                      <h4>Louças</h4>
-                      Louças para você usar a vida toda!
-                      <div class="clearfix"></div>
-                    </div>
-                    <img src="images/Loucas.png" class="img-responsive" alt="Project Title"> </a> </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-3 col-lg-3 metais">
+              <div class="col-sm-6 col-md-3 col-lg-3 metais isotope-item">
                 <div class="portfolio-item wow fadeInUp" data-wow-delay="600ms">
                   <div class="hover-bg"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                     <div class="hover-text">
@@ -160,10 +167,43 @@
                       Os metais mais lindos para seu lar
                       <div class="clearfix"></div>
                     </div>
-                    <img src="images/Metais.png" class="img-responsive" alt="Project Title"> </a> </div>
+                    <img src="images/metais3.jpg" class="img-responsive" alt="Project Title"> </a> </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-3 col-lg-3 pisos">
+              <div class="col-sm-6 col-md-3 col-lg-3 cubas isotope-item">
+                <div class="portfolio-item wow fadeInUp" data-wow-delay="200ms">
+                  <div class="hover-bg"> <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="hover-text">
+                      <h4>Cubas</h4>
+                      As melhores cubas, de embutir e sobrepor
+                      <div class="clearfix"></div>
+                    </div>
+                    <img src="images/cubas2.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3 loucas isotope-item">
+                <div class="portfolio-item wow fadeInUp" data-wow-delay="400ms">
+                  <div class="hover-bg"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="hover-text">
+                      <h4>Louças</h4>
+                      Louças para você usar a vida toda!
+                      <div class="clearfix"></div>
+                    </div>
+                    <img src="images/loucas.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3 metais isotope-item">
+                <div class="portfolio-item wow fadeInUp" data-wow-delay="600ms">
+                  <div class="hover-bg"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="hover-text">
+                      <h4>Metais</h4>
+                      Os metais mais lindos para seu lar
+                      <div class="clearfix"></div>
+                    </div>
+                    <img src="images/metais.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3 pisos isotope-item">
                 <div class="portfolio-item wow fadeInUp" data-wow-delay="800ms">
                   <div class="hover-bg"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                     <div class="hover-text">
@@ -171,56 +211,44 @@
                       Pisos para revestir sua obra de muito glamour
                       <div class="clearfix"></div>
                     </div>
-                    <img src="images/Pisos.png" class="img-responsive" alt="Project Title"> </a> </div>
+                    <img src="images/pisos.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3 cubas isotope-item">
+                <div class="portfolio-item wow fadeInUp" data-wow-delay="200ms">
+                  <div class="hover-bg"> <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="hover-text">
+                      <h4>Cubas</h4>
+                      As melhores cubas, de embutir e sobrepor
+                      <div class="clearfix"></div>
+                    </div>
+                    <img src="images/cubas3.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3 pisos isotope-item">
+                <div class="portfolio-item wow fadeInUp" data-wow-delay="1000ms">
+                  <div class="hover-bg"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="hover-text">
+                      <h4>Pisos</h4>
+                      Pisos para revestir sua obra de muito glamour
+                      <div class="clearfix"></div>
+                    </div>
+                    <img src="images/piso2.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3 metais isotope-item">
+                <div class="portfolio-item wow fadeInUp" data-wow-delay="600ms">
+                  <div class="hover-bg"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="hover-text">
+                      <h4>Metais</h4>
+                      Os metais mais lindos para seu lar
+                      <div class="clearfix"></div>
+                    </div>
+                    <img src="images/metais2.jpg" class="img-responsive" alt="Project Title"> </a> </div>
                 </div>
               </div>
             </div>
           </div>
-
-            <!-- <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="./images/Cubas.png" alt="">
-                    <div class="caption">
-                        <h3>Cubas</h3>
-                        <p>As melhores cubas, de embutir e sobrepor</p>
-                        <p><a href="#" class="btn btn-primary">Mais sobre...</a></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="./images/Loucas.png" alt="">
-                    <div class="caption">
-                        <h3>Louças</h3>
-                        <p>Louças para você usar a vida toda!</p>
-                        <p><a href="#" class="btn btn-primary">Mais sobre...</a></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="./images/Metais.png" alt="">
-                    <div class="caption">
-                        <h3>Metais</h3>
-                        <p>Os metais mais lindos para seu lar</p>
-                        <p><a href="#" class="btn btn-primary">Mais sobre...</a></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="./images/Pisos.png" alt="">
-                    <div class="caption">
-                        <h3>Pisos</h3>
-                        <p>Pisos para revestir sua obra de muito glamour</p>
-                        <p><a href="#" class="btn btn-primary">Mais sobre...</a></p>
-                    </div>
-                </div>
-            </div> -->
-
 
         <hr>
 
@@ -230,7 +258,40 @@
 
         <div class="row">
             <div class="col-sm-8 col-md-8">
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <!-- <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol> -->
 
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="images/frenteDiaBanner.jpg" alt="...">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/frenteNoiteBanner.jpg" alt="...">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a> -->
+            </div>
             </div>
             <div class="col-sm-4 col-md-4">
               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
@@ -246,7 +307,7 @@
         <div class="row text-center">
           <div class="col-md-4">
             <i class="fa fa-map-marker fa-2x"></i>
-            <p>Av. Munhoz da Rocha, 240</p>
+            <p>Av. Munhoz da Rocha, 1678 - Centro</p>
             <p>Mandaguaçu</p>
           </div>
           <div class="col-md-4">
@@ -255,7 +316,7 @@
           </div>
           <div class="col-md-4">
             <i class="fa fa-phone fa-2x"></i>
-            <p>(44) 3245 - .....</p>
+            <p>(44) 3245 - 3116</p>
           </div>
         </div>
 
@@ -318,19 +379,31 @@
       });
       $(document).ready(function() {
         new WOW().init();
+        $('a.page-scroll').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top - 40
+                }, 900);
+                return false;
+              }
+            }
+          });
       });
 
 
       function init_map(){
         var myOptions = {
           zoom:15,
-          center:new google.maps.LatLng(-23.3510683,-52.09131409999998),
+          center:new google.maps.LatLng(-23.3399776,-52.1013959,17),
           mapTypeId: google.maps.MapTypeId.ROADMAP,
           scrollwheel: false,
         };
         map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
-        marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-23.3510683, -52.09131409999998)});
-        infowindow = new google.maps.InfoWindow({content:"<b>Deposito Uni&atilde;o Acabamentos</b><br/>Av. Munhoz da Rocha, 240<br/> Mandagua&ccedil;&uacute;" });
+        marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-23.3399776,-52.1013959,17)});
+        infowindow = new google.maps.InfoWindow({content:"<b>Deposito Uni&atilde;o Acabamentos</b><br/>Av. Munhoz da Rocha, 1678 - Centro<br/> Mandagua&ccedil;&uacute;" });
         google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});
         infowindow.open(map,marker);
       }
