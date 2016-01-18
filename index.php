@@ -17,8 +17,8 @@
     <!-- Custom CSS -->
     <!-- <link href="css/heroic-features.css" rel="stylesheet"> -->
     <link href="css/depositoUniao.css" rel="stylesheet">
-    <link rel="stylesheet" href="/bower_components/animate.css/animate.min.css">
-    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
     <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
