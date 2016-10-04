@@ -29,9 +29,7 @@
     <![endif]-->
 
 </head>
-
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -65,7 +63,6 @@
         </div>
         <!-- /.container -->
     </nav>
-
     <!-- Jumbotron Header -->
     <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
