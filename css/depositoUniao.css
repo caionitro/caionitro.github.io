@@ -24,7 +24,6 @@ footer {
 }
 
 /* Background images are set within the HTML using inline CSS, not here */
-
 .fill {
     width: 100%;
     height: 100%;
@@ -43,15 +42,16 @@ footer {
 .navbar-brand{
   padding-top: 8px;
 }
+
 #gmap_canvas img{
   max-width:none!important;
   background:none!important
 }
+
 #contato, #produto, #sobre{
   padding-bottom: 22px;
   padding-top: 35px;
 }
-
 
 .categoria{
   padding-bottom: 30px;
